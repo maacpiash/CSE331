@@ -14,10 +14,7 @@ namespace Attendance_System.View
 
         private void Reposition()
         {
-            int x = (Width - label1.Width) / 2;
-            label1.Location = new Point(x, 9);
-            x = (Width - label2.Width) / 2;
-            label2.Location = new Point(x, 37);
+            
         }
     }
 }
